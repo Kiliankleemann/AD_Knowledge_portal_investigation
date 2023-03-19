@@ -1,0 +1,13 @@
+There are several tools available to determine SNPs (single nucleotide polymorphisms) from RNA sequencing data. Here are some examples:
+
+    GATK (Genome Analysis Toolkit) - This is a widely used software suite for analyzing DNA and RNA sequencing data. It includes tools for variant discovery and genotyping, including RNAseq-specific tools for SNP and indel (insertion/deletion) detection.
+
+    Samtools - This is a suite of programs for manipulating and processing sequence data in the SAM/BAM format. It includes a variant caller for RNA sequencing data called VarScan, which can detect SNPs, indels, and copy number variants.
+
+    FreeBayes - This is a Bayesian genetic variant detector designed to find small variants (SNPs and indels) in large datasets. It can be used on both DNA and RNA sequencing data and is particularly useful for detecting rare variants.
+
+    SNPiR - This is a tool specifically designed for SNP identification in RNA sequencing data. It uses a reference genome to align RNA reads and identify SNPs, taking into account possible sequencing errors and splicing variation.
+
+    STAR-ALIGN - This is a tool that can perform RNAseq alignment and SNP detection in a single step. It uses a reference genome to align RNA reads and identify SNPs simultaneously.
+
+These are just a few examples of the many tools available for SNP identification in RNA sequencing data. The choice of tool will depend on various factors, including the quality and quantity of the data, the specific research question, and the computational resources available.
